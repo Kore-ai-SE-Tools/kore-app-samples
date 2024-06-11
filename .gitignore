@@ -133,4 +133,6 @@ dist
 .DS_STORE
 
 package-lock.json
-.authCheck.*
+
+#my personal scripts
+my-scripts/*
