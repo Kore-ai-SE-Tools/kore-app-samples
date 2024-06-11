@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "c67fadd2-b7c7-4305-b418-b014f7ac7bcc",
+		"name": "kitchen-sink",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35347751"
+	},
+	"item": [
+		{
+			"name": "postman-quick-tips",
+			"item": [
+				{
+					"name": "Authenticate",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"",
+									"const res = pm.response.json();",
+									"const token = res.data;",
+									"pm.environment.set(\"postmanQuickTipsToken\", token);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"const correctBody = {\"clientId\":\"123456789\", \"clientSecret\":\"thisismysecret\", \"appId\":\"xoplatform\"};",
+									"const notCorrectBody = {\"clientId\": \"12345\"};",
+									"",
+									"pm.collectionVariables.set(\"authenticateBody\", JSON.stringify(correctBody));"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{{authenticateBody}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/authenticate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "auth",
+								"value": "{{postmanQuickTipsToken}}"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "authenticateBody",
+			"value": ""
+		}
+	]
+}

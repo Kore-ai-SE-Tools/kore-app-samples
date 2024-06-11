@@ -1,0 +1,31 @@
+{
+    "name": "Search Assist Bot",
+    "envVariables": [
+        {
+            "key": "SEARCH_ASSIST_APP_ID",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "fbfdf346-ba63-5666-94bc-13920e0fb30a"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "SEARCH_ASSIST_JWT",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "fbfdf346-ba63-5666-94bc-13920e0fb30a"
+            ],
+            "isSecured": true
+        }
+    ]
+}

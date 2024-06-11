@@ -1,0 +1,18 @@
+{
+    "name": "ServiceNode",
+    "envVariables": [
+        {
+            "key": "API_SPREADSHEETS_SLUG",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "8ae3fa72-45e0-5bc2-ac83-3cde6c5150cc"
+            ],
+            "isSecured": true
+        }
+    ]
+}

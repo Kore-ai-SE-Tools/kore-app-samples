@@ -1,0 +1,44 @@
+{
+    "name": "Twilio integration",
+    "envVariables": [
+        {
+            "key": "TWILIO_ACCOUNT_SID",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "aa863b16-7eac-5ee2-97fa-0cfbc6634f4b"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "TWILIO_FROM_NUMBER",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "aa863b16-7eac-5ee2-97fa-0cfbc6634f4b"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "TWILIO_AUTH_TOKEN",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "aa863b16-7eac-5ee2-97fa-0cfbc6634f4b"
+            ],
+            "isSecured": true
+        }
+    ]
+}

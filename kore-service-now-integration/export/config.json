@@ -1,0 +1,44 @@
+{
+    "name": "serviceNow",
+    "envVariables": [
+        {
+            "key": "SNOW_TENANT_SUBDOMAIN",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "9c19720b-aa3a-553e-90f5-6345b544220e"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "ASSIGNED_TO",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "9c19720b-aa3a-553e-90f5-6345b544220e"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "SNOW_AUTH_SECRET",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "9c19720b-aa3a-553e-90f5-6345b544220e"
+            ],
+            "isSecured": true
+        }
+    ]
+}

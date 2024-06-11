@@ -1,0 +1,44 @@
+{
+    "name": "CustomLLM",
+    "envVariables": [
+        {
+            "key": "OPEN_AI_API_KEY",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "cbbf4575-3d68-593c-b76a-4e716c54ec1d"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "CUSTOM_AWS_KEY",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "cbbf4575-3d68-593c-b76a-4e716c54ec1d"
+            ],
+            "isSecured": true
+        },
+        {
+            "key": "CUSTOM_AWS_LLM_URL",
+            "value": "",
+            "variableType": "env",
+            "hint": "",
+            "scope": "prePopulated",
+            "group": "",
+            "propagateValue": false,
+            "vNameSpace": [
+                "cbbf4575-3d68-593c-b76a-4e716c54ec1d"
+            ],
+            "isSecured": true
+        }
+    ]
+}
