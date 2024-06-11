@@ -1,8 +1,6 @@
 ![kore logo](./assets/kore-logo.png)
-# Kore App Examples
-
-Version apps from the Kitchen Sink
-
+# Kore App Samples 
+#### A collection of useful common application examples of integrations with third party systems, specific platform functionality and channel deployments
 ## Applications 
 
 | Name | Description | Snippet |
@@ -21,7 +19,7 @@ Version apps from the Kitchen Sink
 ## Info
 For each application, there is a corresponding readme and video example of how to follow along and create the application.
 
-There is also the exported bot definitions and configuration files so you can easily import the bot, and adjust as needed. 
+In each project folder, there is also an "export" folder with the exported bot definitions and configuration files so you can easily import the bot, and adjust as needed.
 
 Some applications will also have a `js` directory, others, the scripts will appear in the readme, this is dependent on the level of code needed for the application. 
 
