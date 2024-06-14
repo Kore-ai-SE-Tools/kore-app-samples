@@ -9,6 +9,7 @@
 | [Kore Custom LLM](./kore-custom-llm)| How to integrate with a custom LLM | Create a custom integration with your LLM of choice. We create an auto mechanic helper that helps users to diagnose and troubleshoot issues with their vehicle |
 | [Kore Data Tables ](./kore-data-tables)| How to Data Tables with a Virtual Assistant | Allow users to create appointments, stored in a Data Table which can then be displayed back to the user | 
 | [Kore Gen AI Prompt Implementation](./kore-genai-prompt-implementation) | How to setup and integrate with Generative AI | Write fun and engaging stories using Gen AI. Allow users to set the genre, and then the virual assistant tailors the Gen AI LLM to generate fun and interesting stories |
+| [Kore Instagram Integration](./kore-instagram-integration) | How to integrate your bot with Instagram | Allow Instagram users to chat with your bot easily through Instagram chat | 
 | [Kore MS Teams Integration](./kore-ms-teams) | How to Integrate with MS Teams | Allow applications to securely use your Virtual Assistant via MS Teams! |
 | [Kore OTP Generation](./kore-otp-generation) | How to Generate and Validate an OTP | Create a One Time Password, and send via email, using the service Brevo. Then validate the OTP. |  
 | [Kore Postman Quick Tips](./kore-postman-quick-tips) | Quick Tips for working with Postman | How to use environment variables, scripts and some debugging tips to help you develop APIs
